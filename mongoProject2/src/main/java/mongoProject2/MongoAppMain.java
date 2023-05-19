@@ -103,6 +103,9 @@ public class MongoAppMain {
 		System.out.println("\nLista com o Item Apagado");
 		MongoAppMain.imprimeProdutos(collection);
 		
+		System.out.println("\nConexao encerrada");
+		client.close();
+		
 	}
 		
 }
